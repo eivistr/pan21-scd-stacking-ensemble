@@ -16,7 +16,7 @@ Source code for the paper submitted to the PAN Style Change Detection task @CLEF
 
 To reproduce the results of the paper:
 
-1. Download data from the official task site and save to `./data/train` and `./data/validation`
+1. Download data from the [official task site](https://pan.webis.de/clef21/pan21-web/style-change-detection.html) and save to `./data/train` and `./data/validation`
 2. Run `generate_embeddings.py` and `generate_text_features.py` to generate and save feature vectors for training and validation.
 3. Run `task1.py`, `task2.py` and `task3.py` to train and save the LightGBM model and stacking ensemble model for each task. This step also validates the models on the 
 validation set.
